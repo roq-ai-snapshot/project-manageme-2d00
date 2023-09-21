@@ -1,0 +1,2792 @@
+[
+  {
+    "team": [
+      {
+        "id": "ec9235e2-246f-4d8a-964c-ffb7b0eaeb48",
+        "name": "Development Team",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-21T02:52:11.649Z",
+        "updated_at": "2023-09-21T07:19:20.423Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "886a5834-8afa-4f66-8349-39e53aaef834",
+        "name": "Marketing Team",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-20T10:55:54.047Z",
+        "updated_at": "2023-09-21T06:12:28.476Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2dbd53d9-e7fb-40a2-9c4b-013a4867bd92",
+        "name": "Sales Team",
+        "description": "Drives sales and revenue",
+        "created_at": "2023-09-20T22:24:35.200Z",
+        "updated_at": "2023-09-20T18:25:22.716Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a994a7a9-8c51-424a-96c2-3074cf95c29a",
+        "name": "Operations Team",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-20T10:49:01.810Z",
+        "updated_at": "2023-09-20T22:27:10.783Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "48dc481d-0d20-45b9-a704-2c0ca8bb5471",
+        "name": "Design Team",
+        "description": "Creates visually appealing designs",
+        "created_at": "2023-09-20T22:06:09.673Z",
+        "updated_at": "2023-09-20T17:58:47.034Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "1c90d405-3d7c-4f64-b31e-a42114e6f87b",
+        "created_at": "2023-09-21T09:10:12.345Z",
+        "updated_at": "2023-09-20T14:56:33.094Z",
+        "team_id": "2dbd53d9-e7fb-40a2-9c4b-013a4867bd92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1ae3463-b15e-463c-a6f4-42b57087c860",
+        "created_at": "2023-09-21T09:04:21.923Z",
+        "updated_at": "2023-09-20T14:02:27.855Z",
+        "team_id": "48dc481d-0d20-45b9-a704-2c0ca8bb5471",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f78ed08f-563b-4cc2-9cec-a13a69053958",
+        "created_at": "2023-09-20T09:41:46.414Z",
+        "updated_at": "2023-09-20T21:35:08.649Z",
+        "team_id": "ec9235e2-246f-4d8a-964c-ffb7b0eaeb48",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d81fe20a-3f06-443f-b420-674d65daeb4a",
+        "created_at": "2023-09-21T08:42:38.990Z",
+        "updated_at": "2023-09-21T06:27:10.361Z",
+        "team_id": "a994a7a9-8c51-424a-96c2-3074cf95c29a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00aeae55-dd83-4d4f-bf03-3a7bb52e36c4",
+        "created_at": "2023-09-20T14:40:54.956Z",
+        "updated_at": "2023-09-20T18:05:01.883Z",
+        "team_id": "2dbd53d9-e7fb-40a2-9c4b-013a4867bd92",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "71ae0c77-c24c-4aac-acd6-dba3d05b0f88",
+        "name": "Project A",
+        "description": "A revolutionary product launch",
+        "start_date": "2023-09-20T14:47:38.337Z",
+        "end_date": "2023-09-20T16:00:08.291Z",
+        "status": "In progress",
+        "created_at": "2023-09-21T03:03:24.854Z",
+        "updated_at": "2023-09-21T04:01:27.001Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22bdcd87-ec9c-46eb-b38f-870212024501",
+        "name": "Project B",
+        "description": "An infrastructure upgrade",
+        "start_date": "2023-09-21T02:31:39.797Z",
+        "end_date": "2023-09-20T18:41:51.668Z",
+        "status": "On hold",
+        "created_at": "2023-09-20T23:36:35.277Z",
+        "updated_at": "2023-09-20T12:00:54.618Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "69fadb8e-7f19-4e69-96ba-a1c9d6c4ff13",
+        "name": "Project C",
+        "description": "A customer engagement initiative",
+        "start_date": "2023-09-20T15:15:21.294Z",
+        "end_date": "2023-09-20T14:30:39.793Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T08:40:12.341Z",
+        "updated_at": "2023-09-20T17:36:26.926Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d8337243-5be8-4565-ac8d-d8ca67b6bb4b",
+        "name": "Project D",
+        "description": "A process optimization project",
+        "start_date": "2023-09-21T02:48:44.328Z",
+        "end_date": "2023-09-21T02:42:40.475Z",
+        "status": "Delayed",
+        "created_at": "2023-09-21T02:22:20.444Z",
+        "updated_at": "2023-09-20T13:55:15.171Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "df60f6fd-6edd-4556-9e02-43b5e4422f0d",
+        "name": "Project E",
+        "description": "A market research study",
+        "start_date": "2023-09-20T22:36:28.019Z",
+        "end_date": "2023-09-20T14:02:09.422Z",
+        "status": "Under review",
+        "created_at": "2023-09-21T00:57:47.978Z",
+        "updated_at": "2023-09-21T06:41:49.963Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "921778cd-9681-44c3-a710-a5b58427903f",
+        "name": "Task 1",
+        "description": "Implement feature X",
+        "start_date": "2023-09-20T20:36:25.460Z",
+        "end_date": "2023-09-20T11:24:47.514Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T17:01:50.377Z",
+        "updated_at": "2023-09-20T10:06:34.253Z",
+        "project_id": "69fadb8e-7f19-4e69-96ba-a1c9d6c4ff13"
+      },
+      {
+        "id": "acbba88f-58e9-4976-a662-615d0cf15adb",
+        "name": "Task 2",
+        "description": "Prepare presentation for client meeting",
+        "start_date": "2023-09-20T17:46:09.026Z",
+        "end_date": "2023-09-20T19:47:27.397Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T20:20:22.896Z",
+        "updated_at": "2023-09-21T08:58:43.535Z",
+        "project_id": "22bdcd87-ec9c-46eb-b38f-870212024501"
+      },
+      {
+        "id": "8f405035-8849-4745-8610-c51b655b5e4b",
+        "name": "Task 3",
+        "description": "Follow up with leads",
+        "start_date": "2023-09-20T12:36:13.788Z",
+        "end_date": "2023-09-21T01:12:54.473Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T01:33:52.037Z",
+        "updated_at": "2023-09-20T09:17:39.124Z",
+        "project_id": "71ae0c77-c24c-4aac-acd6-dba3d05b0f88"
+      },
+      {
+        "id": "f5a872c0-aeea-4c4a-af4b-dd642373c39a",
+        "name": "Task 4",
+        "description": "Troubleshoot system issues",
+        "start_date": "2023-09-21T07:19:42.698Z",
+        "end_date": "2023-09-21T08:48:52.837Z",
+        "status": "Blocked",
+        "created_at": "2023-09-20T10:09:41.075Z",
+        "updated_at": "2023-09-21T06:11:53.795Z",
+        "project_id": "df60f6fd-6edd-4556-9e02-43b5e4422f0d"
+      },
+      {
+        "id": "2f397009-d76e-45ad-9b8a-eea74c469839",
+        "name": "Task 5",
+        "description": "Document project requirements",
+        "start_date": "2023-09-20T23:17:56.737Z",
+        "end_date": "2023-09-20T17:04:57.620Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T06:50:50.827Z",
+        "updated_at": "2023-09-21T03:28:17.571Z",
+        "project_id": "d8337243-5be8-4565-ac8d-d8ca67b6bb4b"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "a060d24e-0074-4991-8ab6-33ab2f1ac375",
+        "created_at": "2023-09-21T08:54:32.148Z",
+        "updated_at": "2023-09-21T04:53:50.882Z",
+        "task_id": "2f397009-d76e-45ad-9b8a-eea74c469839",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ae43db4-57d4-4678-a504-aeb672f13f48",
+        "created_at": "2023-09-20T12:50:35.639Z",
+        "updated_at": "2023-09-20T09:53:17.219Z",
+        "task_id": "8f405035-8849-4745-8610-c51b655b5e4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8d835a7-8222-45c1-8749-276dd7052bc5",
+        "created_at": "2023-09-20T15:12:46.410Z",
+        "updated_at": "2023-09-21T01:00:56.281Z",
+        "task_id": "8f405035-8849-4745-8610-c51b655b5e4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9aa9410-f735-4ca7-a2ce-3e9e60cad190",
+        "created_at": "2023-09-20T19:35:13.234Z",
+        "updated_at": "2023-09-20T13:15:27.051Z",
+        "task_id": "acbba88f-58e9-4976-a662-615d0cf15adb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af481daf-366b-4f0d-98fd-82c606911d00",
+        "created_at": "2023-09-20T11:46:18.720Z",
+        "updated_at": "2023-09-21T00:28:45.192Z",
+        "task_id": "acbba88f-58e9-4976-a662-615d0cf15adb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4bf1d513-12b3-411c-871c-6524e85097ce",
+        "email": "Alf_Tillman46@roq.tech",
+        "firstName": "Emmanuel",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/629.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d7964d8-3f1c-4b1b-9bcd-08cb100d144c",
+        "email": "Eleanore.Crooks31@roq.tech",
+        "firstName": "Tony",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39573667",
+        "tenantId": null
+      },
+      {
+        "reference": "6c2fa3ba-e8af-454d-a514-31d123679d7b",
+        "email": "Martina_Medhurst14@roq.tech",
+        "firstName": "Larry",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/737.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52e9e7c1-16e5-4ab5-8b39-bd68067da81d",
+        "email": "Jaydon_Kuphal@roq.tech",
+        "firstName": "Seamus",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/963.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7921397d-c1dc-4954-8356-850401bf2f93",
+        "email": "Tracey.Kub@roq.tech",
+        "firstName": "Percival",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53602112",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "22a9f141-1d67-4993-9275-763c4c3e20c4",
+        "name": "Development Team",
+        "description": "Responsible for product development",
+        "created_at": "2023-09-20T21:55:46.529Z",
+        "updated_at": "2023-09-20T16:39:58.738Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95ce5436-d628-4c21-8169-d7b78b2b2f8d",
+        "name": "Marketing Team",
+        "description": "Handles marketing and promotions",
+        "created_at": "2023-09-20T23:41:24.811Z",
+        "updated_at": "2023-09-20T10:58:11.205Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9dac1834-e902-4811-bb1d-d2ec58fd7a3e",
+        "name": "Sales Team",
+        "description": "Drives sales and revenue",
+        "created_at": "2023-09-21T04:22:36.734Z",
+        "updated_at": "2023-09-21T07:29:30.849Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "85f7afb8-1403-4293-926f-8f5dac149bcb",
+        "name": "Operations Team",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-21T00:37:21.099Z",
+        "updated_at": "2023-09-20T13:47:07.637Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8ba98358-f918-4bc5-9750-49cccd397133",
+        "name": "Customer Support Team",
+        "description": "Provides customer assistance and support",
+        "created_at": "2023-09-21T02:21:33.999Z",
+        "updated_at": "2023-09-20T13:46:24.574Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "ca5d21f6-839c-4d40-99a1-887c51d3f2ae",
+        "created_at": "2023-09-21T04:03:42.263Z",
+        "updated_at": "2023-09-21T02:45:24.678Z",
+        "team_id": "85f7afb8-1403-4293-926f-8f5dac149bcb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77b36206-b6f4-4629-8785-936d308925b2",
+        "created_at": "2023-09-20T14:08:44.850Z",
+        "updated_at": "2023-09-20T13:22:02.218Z",
+        "team_id": "22a9f141-1d67-4993-9275-763c4c3e20c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71d3c48d-2241-4ff7-b4c8-3dab32280d6e",
+        "created_at": "2023-09-20T11:57:06.605Z",
+        "updated_at": "2023-09-20T18:13:55.817Z",
+        "team_id": "22a9f141-1d67-4993-9275-763c4c3e20c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "567e9ea1-a965-44d3-844d-f8b73d054934",
+        "created_at": "2023-09-21T07:57:23.380Z",
+        "updated_at": "2023-09-21T01:17:26.057Z",
+        "team_id": "95ce5436-d628-4c21-8169-d7b78b2b2f8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb0a08a0-2aa6-4a8e-a925-acf6c3b746de",
+        "created_at": "2023-09-21T08:15:28.748Z",
+        "updated_at": "2023-09-20T16:20:31.587Z",
+        "team_id": "22a9f141-1d67-4993-9275-763c4c3e20c4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "1bd4cdc2-93b0-44d5-9ccd-d8342c5f537b",
+        "name": "Project X",
+        "description": "A top-secret project with high impact",
+        "start_date": "2023-09-20T14:13:52.921Z",
+        "end_date": "2023-09-20T15:17:22.020Z",
+        "status": "In Progress",
+        "created_at": "2023-09-21T09:02:40.661Z",
+        "updated_at": "2023-09-20T13:26:07.497Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b06d5db0-2cc7-4cfa-b70b-459986b47052",
+        "name": "New Product Launch",
+        "description": "Introducing a revolutionary product",
+        "start_date": "2023-09-20T17:51:53.771Z",
+        "end_date": "2023-09-21T03:34:05.219Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T20:35:55.703Z",
+        "updated_at": "2023-09-20T12:15:23.723Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "63a647d6-2395-4db7-8074-0864d528b3c4",
+        "name": "Marketing Campaign",
+        "description": "Promoting a new line of products",
+        "start_date": "2023-09-20T16:10:59.287Z",
+        "end_date": "2023-09-21T05:35:43.268Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T08:29:37.667Z",
+        "updated_at": "2023-09-20T18:47:28.965Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "737c46c3-0614-4554-a604-d67ebe7624bf",
+        "name": "Operations Optimization",
+        "description": "Streamlining operational processes",
+        "start_date": "2023-09-21T01:52:35.484Z",
+        "end_date": "2023-09-21T06:28:29.639Z",
+        "status": "Delayed",
+        "created_at": "2023-09-21T00:58:59.599Z",
+        "updated_at": "2023-09-21T08:48:29.317Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0718e024-e3a8-44f3-b509-1fe78398a3eb",
+        "name": "Customer Satisfaction Initiative",
+        "description": "Improving customer experience",
+        "start_date": "2023-09-21T04:14:18.966Z",
+        "end_date": "2023-09-20T15:35:46.135Z",
+        "status": "Under Review",
+        "created_at": "2023-09-20T23:29:42.443Z",
+        "updated_at": "2023-09-21T00:14:13.876Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "70d42204-ed0a-4a58-9112-b29bd50621cf",
+        "name": "Task 1",
+        "description": "Perform research and analysis",
+        "start_date": "2023-09-20T10:48:54.629Z",
+        "end_date": "2023-09-20T23:11:35.780Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T18:59:01.004Z",
+        "updated_at": "2023-09-21T01:07:49.115Z",
+        "project_id": "b06d5db0-2cc7-4cfa-b70b-459986b47052"
+      },
+      {
+        "id": "ac824664-d8a3-4814-88be-39c4b1308c7c",
+        "name": "Task 2",
+        "description": "Develop a prototype",
+        "start_date": "2023-09-21T00:16:05.118Z",
+        "end_date": "2023-09-20T17:22:09.116Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T21:00:30.922Z",
+        "updated_at": "2023-09-20T13:45:45.084Z",
+        "project_id": "63a647d6-2395-4db7-8074-0864d528b3c4"
+      },
+      {
+        "id": "62bd0891-d520-4080-a5aa-ff3ca574a7b9",
+        "name": "Task 3",
+        "description": "Create marketing materials",
+        "start_date": "2023-09-20T11:40:35.693Z",
+        "end_date": "2023-09-20T11:10:39.854Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T08:56:24.058Z",
+        "updated_at": "2023-09-21T08:38:06.583Z",
+        "project_id": "0718e024-e3a8-44f3-b509-1fe78398a3eb"
+      },
+      {
+        "id": "8c7fe041-a195-4520-b870-4ec550829af3",
+        "name": "Task 4",
+        "description": "Implement process improvements",
+        "start_date": "2023-09-21T05:35:33.878Z",
+        "end_date": "2023-09-20T09:57:21.928Z",
+        "status": "On Hold",
+        "created_at": "2023-09-21T01:24:07.278Z",
+        "updated_at": "2023-09-21T05:53:58.175Z",
+        "project_id": "0718e024-e3a8-44f3-b509-1fe78398a3eb"
+      },
+      {
+        "id": "0ed01433-44c6-49a1-a5b1-eaefcb831828",
+        "name": "Task 5",
+        "description": "Resolve customer issues",
+        "start_date": "2023-09-21T04:17:14.802Z",
+        "end_date": "2023-09-20T15:26:52.571Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T01:35:39.681Z",
+        "updated_at": "2023-09-20T16:40:42.664Z",
+        "project_id": "737c46c3-0614-4554-a604-d67ebe7624bf"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "10f08630-139a-4041-bfd9-190fc8577a30",
+        "created_at": "2023-09-20T12:14:43.900Z",
+        "updated_at": "2023-09-20T19:19:01.618Z",
+        "task_id": "0ed01433-44c6-49a1-a5b1-eaefcb831828",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2cc0706-b813-4176-a1cb-f024945e0253",
+        "created_at": "2023-09-21T06:02:14.718Z",
+        "updated_at": "2023-09-21T01:37:02.268Z",
+        "task_id": "0ed01433-44c6-49a1-a5b1-eaefcb831828",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6817272e-af0c-4378-a0fd-d4b36836fd3b",
+        "created_at": "2023-09-20T18:30:32.954Z",
+        "updated_at": "2023-09-20T17:21:39.469Z",
+        "task_id": "8c7fe041-a195-4520-b870-4ec550829af3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1191ff8-ab35-47f0-b66d-558f00dfa12c",
+        "created_at": "2023-09-20T21:37:40.648Z",
+        "updated_at": "2023-09-21T08:43:41.088Z",
+        "task_id": "0ed01433-44c6-49a1-a5b1-eaefcb831828",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82313fa2-a584-4853-8290-b4f8ae6e64f6",
+        "created_at": "2023-09-21T07:07:46.467Z",
+        "updated_at": "2023-09-20T16:02:09.153Z",
+        "task_id": "62bd0891-d520-4080-a5aa-ff3ca574a7b9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "11b0df32-ac3e-4eb5-b4a0-45fc6dd991de",
+        "email": "Ron_Johnston79@roq.tech",
+        "firstName": "Elisabeth",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/487.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "234c089c-d9af-4b13-94bd-08d2afa06207",
+        "email": "Juwan_Berge9@roq.tech",
+        "firstName": "Adam",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16663875",
+        "tenantId": null
+      },
+      {
+        "reference": "48e5486f-8b95-4dec-8501-fa9ad59bed9b",
+        "email": "Keara87@roq.tech",
+        "firstName": "Jaydon",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/909.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b89c8b5-b86e-43f5-9b88-8037df18fad0",
+        "email": "Kevon_Jaskolski@roq.tech",
+        "firstName": "Fanny",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88225831",
+        "tenantId": null
+      },
+      {
+        "reference": "6cfe339d-c338-4e5a-ab44-49d90feb5706",
+        "email": "Camila.Cronin79@roq.tech",
+        "firstName": "Brayan",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28613633",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "2abd4ba9-8d78-4e78-b628-c13e5b4d47ee",
+        "name": "Development Team",
+        "description": "Responsible for developing new features",
+        "created_at": "2023-09-20T23:53:14.174Z",
+        "updated_at": "2023-09-21T04:32:40.786Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b2d42084-6585-412c-9822-72a52846eedd",
+        "name": "Sales Team",
+        "description": "Responsible for driving sales",
+        "created_at": "2023-09-20T17:43:24.077Z",
+        "updated_at": "2023-09-21T03:41:02.413Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5dd12d1c-34e6-4aec-86bf-91c6fd77f5a2",
+        "name": "Marketing Team",
+        "description": "Responsible for promoting the brand",
+        "created_at": "2023-09-20T17:03:55.816Z",
+        "updated_at": "2023-09-20T12:56:17.610Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "539ec445-3008-414c-9f9c-ed7e5444d72f",
+        "name": "Design Team",
+        "description": "Responsible for creating visual designs",
+        "created_at": "2023-09-21T07:21:22.303Z",
+        "updated_at": "2023-09-20T15:23:36.507Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "05e47837-2f6e-4903-abd7-a9276bb3df7b",
+        "name": "Customer Support Team",
+        "description": "Responsible for assisting customers",
+        "created_at": "2023-09-20T09:48:23.597Z",
+        "updated_at": "2023-09-20T14:39:07.691Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "3ddaf5f9-b6d0-4c5a-8a7a-5597404a5f2b",
+        "created_at": "2023-09-21T03:21:39.787Z",
+        "updated_at": "2023-09-21T01:20:20.052Z",
+        "team_id": "05e47837-2f6e-4903-abd7-a9276bb3df7b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2f585ef-b211-4c34-b910-b2f3a94a3f53",
+        "created_at": "2023-09-20T09:30:37.070Z",
+        "updated_at": "2023-09-21T07:00:18.464Z",
+        "team_id": "539ec445-3008-414c-9f9c-ed7e5444d72f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e1e98fe-fbc5-4074-88f0-ea1756ca1237",
+        "created_at": "2023-09-20T18:21:02.257Z",
+        "updated_at": "2023-09-21T06:01:38.350Z",
+        "team_id": "2abd4ba9-8d78-4e78-b628-c13e5b4d47ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fbbe1e9-626b-4cdd-a7e6-e1778e8ab3fb",
+        "created_at": "2023-09-20T17:19:45.332Z",
+        "updated_at": "2023-09-20T21:32:51.487Z",
+        "team_id": "2abd4ba9-8d78-4e78-b628-c13e5b4d47ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2697e287-953b-4c35-9751-f81f213625d6",
+        "created_at": "2023-09-20T16:50:23.292Z",
+        "updated_at": "2023-09-20T17:54:15.863Z",
+        "team_id": "05e47837-2f6e-4903-abd7-a9276bb3df7b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "95e613b8-eb55-4fef-93fd-93fc26a355ac",
+        "name": "Website Redesign",
+        "description": "Redesigning the company website to improve user experience",
+        "start_date": "2023-09-20T17:12:38.436Z",
+        "end_date": "2023-09-20T16:20:27.475Z",
+        "status": "In Progress",
+        "created_at": "2023-09-21T07:45:53.866Z",
+        "updated_at": "2023-09-20T12:10:19.042Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "10435dd4-7263-4bc8-871a-23b4398a8b4d",
+        "name": "Product Launch",
+        "description": "Launching a new product in the market",
+        "start_date": "2023-09-21T00:35:58.962Z",
+        "end_date": "2023-09-20T17:02:21.385Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T21:03:13.032Z",
+        "updated_at": "2023-09-21T07:46:46.464Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7731d53b-f54b-4f9b-a2d4-1e0870188070",
+        "name": "Marketing Campaign",
+        "description": "Executing a marketing campaign to increase brand awareness",
+        "start_date": "2023-09-21T06:29:13.694Z",
+        "end_date": "2023-09-20T11:24:20.162Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T20:22:22.979Z",
+        "updated_at": "2023-09-20T10:27:40.727Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a1a85d71-db81-45e6-933f-15fad646296e",
+        "name": "Mobile App Development",
+        "description": "Developing a mobile app for iOS and Android",
+        "start_date": "2023-09-20T17:47:09.548Z",
+        "end_date": "2023-09-21T06:41:02.909Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T19:39:56.485Z",
+        "updated_at": "2023-09-20T23:15:28.425Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17af7858-d050-42c2-a72e-107ecd6ffb03",
+        "name": "Client Onboarding",
+        "description": "Onboarding new clients and setting up their accounts",
+        "start_date": "2023-09-21T01:28:26.597Z",
+        "end_date": "2023-09-21T06:28:24.768Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T05:34:13.757Z",
+        "updated_at": "2023-09-20T22:45:27.817Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "c7d796f8-f67d-4a30-8a89-4d1813df795a",
+        "name": "Bug Fixing",
+        "description": "Fixing bugs reported by users",
+        "start_date": "2023-09-20T19:48:18.960Z",
+        "end_date": "2023-09-21T09:09:28.663Z",
+        "status": "To Do",
+        "created_at": "2023-09-20T12:05:03.572Z",
+        "updated_at": "2023-09-20T13:41:22.949Z",
+        "project_id": "a1a85d71-db81-45e6-933f-15fad646296e"
+      },
+      {
+        "id": "f3d5700a-ad9d-4a73-8dcc-00134ee9f60a",
+        "name": "Content Creation",
+        "description": "Creating engaging content for marketing purposes",
+        "start_date": "2023-09-20T14:52:01.368Z",
+        "end_date": "2023-09-21T02:21:17.020Z",
+        "status": "In Progress",
+        "created_at": "2023-09-21T01:11:15.676Z",
+        "updated_at": "2023-09-21T05:13:45.853Z",
+        "project_id": "95e613b8-eb55-4fef-93fd-93fc26a355ac"
+      },
+      {
+        "id": "e506f235-b937-49dc-a32b-d54872e27fd5",
+        "name": "Data Analysis",
+        "description": "Analyzing data to gain insights",
+        "start_date": "2023-09-20T10:11:34.719Z",
+        "end_date": "2023-09-21T02:29:20.922Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T10:54:09.273Z",
+        "updated_at": "2023-09-21T06:52:22.134Z",
+        "project_id": "17af7858-d050-42c2-a72e-107ecd6ffb03"
+      },
+      {
+        "id": "07990471-568f-47a0-9bc3-cb0f5fdc7930",
+        "name": "UI Design",
+        "description": "Designing user interfaces for applications",
+        "start_date": "2023-09-20T22:42:40.384Z",
+        "end_date": "2023-09-20T11:36:15.951Z",
+        "status": "Blocked",
+        "created_at": "2023-09-20T22:52:31.296Z",
+        "updated_at": "2023-09-21T00:03:08.971Z",
+        "project_id": "17af7858-d050-42c2-a72e-107ecd6ffb03"
+      },
+      {
+        "id": "852c04e6-ba1a-449b-9dbf-75d4202bc100",
+        "name": "Meeting Preparation",
+        "description": "Preparing for team meetings",
+        "start_date": "2023-09-21T05:06:36.820Z",
+        "end_date": "2023-09-20T19:55:41.697Z",
+        "status": "Deferred",
+        "created_at": "2023-09-20T18:31:09.437Z",
+        "updated_at": "2023-09-21T03:51:54.152Z",
+        "project_id": "a1a85d71-db81-45e6-933f-15fad646296e"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "531ecc48-413a-46ba-9260-748051598a77",
+        "created_at": "2023-09-20T10:12:46.086Z",
+        "updated_at": "2023-09-20T11:07:03.976Z",
+        "task_id": "c7d796f8-f67d-4a30-8a89-4d1813df795a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "683ca86f-f6b0-4a57-9219-28ed020d4f1e",
+        "created_at": "2023-09-21T08:14:04.816Z",
+        "updated_at": "2023-09-20T13:05:46.004Z",
+        "task_id": "e506f235-b937-49dc-a32b-d54872e27fd5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2e3468d-8794-41d1-94f2-bd38b8306573",
+        "created_at": "2023-09-21T05:42:17.460Z",
+        "updated_at": "2023-09-20T19:41:10.543Z",
+        "task_id": "07990471-568f-47a0-9bc3-cb0f5fdc7930",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35f47ffa-341d-4011-a4a4-5a44716f9692",
+        "created_at": "2023-09-21T08:50:22.154Z",
+        "updated_at": "2023-09-20T16:13:57.574Z",
+        "task_id": "852c04e6-ba1a-449b-9dbf-75d4202bc100",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15ef3db4-7f35-4eec-9917-6d0d7feef4d6",
+        "created_at": "2023-09-21T02:11:40.157Z",
+        "updated_at": "2023-09-21T03:10:19.829Z",
+        "task_id": "852c04e6-ba1a-449b-9dbf-75d4202bc100",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b59943d4-4e03-4a4d-82e0-73dbc6513905",
+        "email": "Robin_Gorczany84@roq.tech",
+        "firstName": "Leonora",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/907.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c5d1e06f-41ed-4a21-8fba-02bbb7f763bf",
+        "email": "Arvid78@roq.tech",
+        "firstName": "Dante",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47497746",
+        "tenantId": null
+      },
+      {
+        "reference": "c5446d93-4957-44e2-9a36-121f7f4a0e0f",
+        "email": "Owen_Nader@roq.tech",
+        "firstName": "Oral",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35443739",
+        "tenantId": null
+      },
+      {
+        "reference": "1b2f773f-830b-44cc-8312-342f6069c037",
+        "email": "Albina.Weimann62@roq.tech",
+        "firstName": "Rogers",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "769076f1-a845-4624-b126-0125d51f5809",
+        "email": "Ashley.Parisian99@roq.tech",
+        "firstName": "Alvis",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32980159",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "dff4b9ad-6919-483b-8326-3be6302e0382",
+        "name": "Development Team",
+        "description": "A team of skilled developers",
+        "created_at": "2023-09-20T17:40:00.338Z",
+        "updated_at": "2023-09-21T07:17:14.649Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3fcefc98-0fef-42e7-889a-dde2fbc41c72",
+        "name": "Marketing Team",
+        "description": "Responsible for marketing campaigns",
+        "created_at": "2023-09-20T16:02:15.993Z",
+        "updated_at": "2023-09-21T05:08:41.304Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f7c5dc67-c014-4dac-a742-65eea7872677",
+        "name": "Sales Team",
+        "description": "Handles sales and customer relations",
+        "created_at": "2023-09-20T23:49:35.122Z",
+        "updated_at": "2023-09-21T01:30:39.562Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7f7ce829-e1fd-45d1-9655-710f7c5c9acd",
+        "name": "Design Team",
+        "description": "Creates visually appealing designs",
+        "created_at": "2023-09-21T02:29:22.109Z",
+        "updated_at": "2023-09-20T13:02:11.268Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "70cb6d71-5a46-4b1f-8fe5-bb0068ebb049",
+        "name": "Operations Team",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-21T06:51:40.360Z",
+        "updated_at": "2023-09-20T23:39:56.349Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "b5e3b85e-6a17-4ea0-b1b0-e093ee29404e",
+        "created_at": "2023-09-20T13:05:41.273Z",
+        "updated_at": "2023-09-20T21:32:45.016Z",
+        "team_id": "3fcefc98-0fef-42e7-889a-dde2fbc41c72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dd25873-1cee-47e1-92e6-6fcccac58139",
+        "created_at": "2023-09-21T05:18:32.895Z",
+        "updated_at": "2023-09-21T07:24:43.671Z",
+        "team_id": "7f7ce829-e1fd-45d1-9655-710f7c5c9acd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cae95768-07a2-4085-9946-f3a985b90c26",
+        "created_at": "2023-09-21T07:35:02.543Z",
+        "updated_at": "2023-09-21T03:36:54.875Z",
+        "team_id": "70cb6d71-5a46-4b1f-8fe5-bb0068ebb049",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3a0a49d-db7c-44ca-bc65-3c3a4064f522",
+        "created_at": "2023-09-20T19:57:08.982Z",
+        "updated_at": "2023-09-21T00:58:30.936Z",
+        "team_id": "f7c5dc67-c014-4dac-a742-65eea7872677",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f30fa71f-bce0-4da0-a6e0-c7ede22cc4c6",
+        "created_at": "2023-09-20T12:11:29.099Z",
+        "updated_at": "2023-09-20T11:37:35.336Z",
+        "team_id": "7f7ce829-e1fd-45d1-9655-710f7c5c9acd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "9a744342-1ea1-4272-bc15-ccbb56b2f695",
+        "name": "Project A",
+        "description": "A web application for online shopping",
+        "start_date": "2023-09-20T10:45:18.703Z",
+        "end_date": "2023-09-20T23:09:54.611Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T19:19:34.192Z",
+        "updated_at": "2023-09-20T14:47:30.272Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "df3a87f6-5df5-42d0-b577-dff66f8ec4b7",
+        "name": "Project B",
+        "description": "A mobile app for tracking fitness activities",
+        "start_date": "2023-09-20T22:51:03.942Z",
+        "end_date": "2023-09-20T13:11:23.712Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T17:50:06.872Z",
+        "updated_at": "2023-09-21T05:43:11.433Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fe13bcbe-84d8-44e4-a2bd-134fe66254f3",
+        "name": "Project C",
+        "description": "A software solution for inventory management",
+        "start_date": "2023-09-20T16:00:30.214Z",
+        "end_date": "2023-09-21T06:54:18.930Z",
+        "status": "On hold",
+        "created_at": "2023-09-21T08:05:42.013Z",
+        "updated_at": "2023-09-20T19:43:11.316Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a91b5cdd-3ca9-4650-84ad-28d27732468d",
+        "name": "Project D",
+        "description": "A website for a non-profit organization",
+        "start_date": "2023-09-20T19:04:08.376Z",
+        "end_date": "2023-09-21T07:55:08.990Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T21:12:20.185Z",
+        "updated_at": "2023-09-20T12:48:19.408Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f4db528f-853b-46a9-8767-73ad42a8115e",
+        "name": "Project E",
+        "description": "An e-learning platform for students",
+        "start_date": "2023-09-21T06:25:40.640Z",
+        "end_date": "2023-09-21T06:05:37.144Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-20T23:14:33.785Z",
+        "updated_at": "2023-09-20T20:51:44.937Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "f5757cf5-69ab-4b33-9a67-ad345ed73d6e",
+        "name": "Task 1",
+        "description": "Implement user authentication feature",
+        "start_date": "2023-09-20T14:00:56.165Z",
+        "end_date": "2023-09-20T20:00:10.458Z",
+        "status": "To do",
+        "created_at": "2023-09-21T08:50:18.016Z",
+        "updated_at": "2023-09-20T12:25:08.662Z",
+        "project_id": "f4db528f-853b-46a9-8767-73ad42a8115e"
+      },
+      {
+        "id": "ac55af01-4ed5-44fe-a2d5-789e70f23838",
+        "name": "Task 2",
+        "description": "Create UI wireframes for the homepage",
+        "start_date": "2023-09-20T23:01:40.691Z",
+        "end_date": "2023-09-20T11:48:11.789Z",
+        "status": "In progress",
+        "created_at": "2023-09-21T00:52:33.567Z",
+        "updated_at": "2023-09-20T18:19:29.393Z",
+        "project_id": "a91b5cdd-3ca9-4650-84ad-28d27732468d"
+      },
+      {
+        "id": "e0a8b7b0-d197-4dd8-83c4-15816904b9db",
+        "name": "Task 3",
+        "description": "Test the application for bugs and issues",
+        "start_date": "2023-09-20T10:18:52.988Z",
+        "end_date": "2023-09-21T08:03:50.050Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T21:18:28.160Z",
+        "updated_at": "2023-09-21T07:09:06.935Z",
+        "project_id": "fe13bcbe-84d8-44e4-a2bd-134fe66254f3"
+      },
+      {
+        "id": "c79df7a2-42c8-4cef-a56a-75f0845d7eff",
+        "name": "Task 4",
+        "description": "Write documentation for API endpoints",
+        "start_date": "2023-09-20T18:55:25.524Z",
+        "end_date": "2023-09-20T23:10:06.035Z",
+        "status": "Blocked",
+        "created_at": "2023-09-20T16:28:07.677Z",
+        "updated_at": "2023-09-20T10:41:41.597Z",
+        "project_id": "df3a87f6-5df5-42d0-b577-dff66f8ec4b7"
+      },
+      {
+        "id": "9b962442-3165-471f-adc9-5dfc1bd68f28",
+        "name": "Task 5",
+        "description": "Optimize database queries for improved performance",
+        "start_date": "2023-09-20T17:48:43.762Z",
+        "end_date": "2023-09-21T05:19:40.419Z",
+        "status": "Deferred",
+        "created_at": "2023-09-20T23:43:35.101Z",
+        "updated_at": "2023-09-21T07:32:21.030Z",
+        "project_id": "a91b5cdd-3ca9-4650-84ad-28d27732468d"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "bf8483ec-f861-4bdd-ba26-6a0e1e2baf41",
+        "created_at": "2023-09-21T00:39:54.838Z",
+        "updated_at": "2023-09-20T10:19:52.256Z",
+        "task_id": "9b962442-3165-471f-adc9-5dfc1bd68f28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f250784e-bf75-4819-84db-7eac3c041611",
+        "created_at": "2023-09-21T03:22:45.738Z",
+        "updated_at": "2023-09-20T13:28:03.133Z",
+        "task_id": "e0a8b7b0-d197-4dd8-83c4-15816904b9db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f11d4121-6691-49d9-b401-ce03aaf0ffaa",
+        "created_at": "2023-09-20T16:59:22.029Z",
+        "updated_at": "2023-09-20T11:37:40.795Z",
+        "task_id": "c79df7a2-42c8-4cef-a56a-75f0845d7eff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f7a5181-70d9-44cd-a12f-5bc6e9291547",
+        "created_at": "2023-09-20T16:59:09.881Z",
+        "updated_at": "2023-09-20T17:20:14.085Z",
+        "task_id": "9b962442-3165-471f-adc9-5dfc1bd68f28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37025ff5-1ea5-4a5a-9ce9-599ed1258fe4",
+        "created_at": "2023-09-21T02:48:47.602Z",
+        "updated_at": "2023-09-20T12:36:20.939Z",
+        "task_id": "c79df7a2-42c8-4cef-a56a-75f0845d7eff",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4eeed449-06c9-4a78-bd68-1a806d9c3368",
+        "email": "Arianna53@roq.tech",
+        "firstName": "Trystan",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59450845",
+        "tenantId": null
+      },
+      {
+        "reference": "1635401b-683c-4313-9de6-0842edb7f490",
+        "email": "Green.Skiles71@roq.tech",
+        "firstName": "Romaine",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/216.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7812774e-c08e-4c3d-ac25-3fd0a67d6d2d",
+        "email": "Octavia_Torphy5@roq.tech",
+        "firstName": "Laurence",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67974363",
+        "tenantId": null
+      },
+      {
+        "reference": "171ff1b9-d1f0-4db1-8769-8d15d6d5139f",
+        "email": "Jessica_Stark94@roq.tech",
+        "firstName": "Eino",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62346869",
+        "tenantId": null
+      },
+      {
+        "reference": "f224ab03-9d8a-4959-a737-4199f16589a0",
+        "email": "Mariam67@roq.tech",
+        "firstName": "Lavina",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64877809",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "6cfdef79-66c6-49d4-ad3e-634d757bd928",
+        "name": "Development Team",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T10:11:11.209Z",
+        "updated_at": "2023-09-20T21:43:08.377Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bf4bcf98-ef77-443b-888a-527454c9e7e8",
+        "name": "Marketing Team",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-20T16:36:34.121Z",
+        "updated_at": "2023-09-20T22:03:29.274Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9baff425-340b-4d23-aee6-cd99b1ca5e70",
+        "name": "Sales Team",
+        "description": "Manages sales activities",
+        "created_at": "2023-09-21T01:56:03.224Z",
+        "updated_at": "2023-09-21T07:27:42.701Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "843213cf-658b-4499-b3a3-59db9d30463f",
+        "name": "Design Team",
+        "description": "Creates visual designs",
+        "created_at": "2023-09-20T21:35:54.944Z",
+        "updated_at": "2023-09-20T13:58:53.217Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "aa50defc-3497-4d46-88c8-6ce9986de24d",
+        "name": "Operations Team",
+        "description": "Oversees day-to-day operations",
+        "created_at": "2023-09-20T23:20:45.677Z",
+        "updated_at": "2023-09-20T18:50:14.169Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "1aff8cd9-fc15-4d84-8e2e-435acb029d41",
+        "created_at": "2023-09-20T21:38:52.331Z",
+        "updated_at": "2023-09-20T21:26:38.792Z",
+        "team_id": "843213cf-658b-4499-b3a3-59db9d30463f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8db3fcd5-5c06-46a6-835f-60480a6e110f",
+        "created_at": "2023-09-21T08:20:51.841Z",
+        "updated_at": "2023-09-20T09:52:16.489Z",
+        "team_id": "6cfdef79-66c6-49d4-ad3e-634d757bd928",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94003769-9477-4e8b-a48e-14ad9ea5da98",
+        "created_at": "2023-09-21T05:36:22.903Z",
+        "updated_at": "2023-09-21T06:09:39.149Z",
+        "team_id": "843213cf-658b-4499-b3a3-59db9d30463f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f73787d-00d5-4c5c-9ea5-922e77193e6d",
+        "created_at": "2023-09-20T19:11:32.935Z",
+        "updated_at": "2023-09-20T17:31:45.417Z",
+        "team_id": "bf4bcf98-ef77-443b-888a-527454c9e7e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d53c3bc-3775-4c6d-a040-319a84ce74bf",
+        "created_at": "2023-09-21T02:10:59.707Z",
+        "updated_at": "2023-09-20T22:04:15.189Z",
+        "team_id": "6cfdef79-66c6-49d4-ad3e-634d757bd928",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "0aab9d37-edea-4677-bb10-d33a2d4170a0",
+        "name": "Project A",
+        "description": "New website development",
+        "start_date": "2023-09-20T21:20:33.795Z",
+        "end_date": "2023-09-20T23:31:11.749Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T12:00:13.539Z",
+        "updated_at": "2023-09-21T08:49:27.786Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f89556e0-5218-4949-b4ae-d766f9762a72",
+        "name": "Project B",
+        "description": "Product launch campaign",
+        "start_date": "2023-09-20T13:10:38.958Z",
+        "end_date": "2023-09-20T16:43:59.948Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T00:13:12.686Z",
+        "updated_at": "2023-09-21T08:44:00.057Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "99f661d3-275e-49de-ae51-776479a8d321",
+        "name": "Project C",
+        "description": "CRM system implementation",
+        "start_date": "2023-09-21T07:09:59.614Z",
+        "end_date": "2023-09-20T17:37:52.281Z",
+        "status": "On hold",
+        "created_at": "2023-09-21T02:57:12.337Z",
+        "updated_at": "2023-09-21T00:22:56.046Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4e104ba8-ab18-47ae-b42e-ccb7865f6991",
+        "name": "Project D",
+        "description": "Mobile app redesign",
+        "start_date": "2023-09-21T02:02:22.495Z",
+        "end_date": "2023-09-20T13:39:06.616Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T19:01:33.819Z",
+        "updated_at": "2023-09-20T16:34:09.478Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "811b0ee3-d69b-477d-be16-764bcbd4e34d",
+        "name": "Project E",
+        "description": "Infrastructure upgrade",
+        "start_date": "2023-09-21T00:38:15.854Z",
+        "end_date": "2023-09-21T03:28:04.384Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T10:51:35.300Z",
+        "updated_at": "2023-09-20T21:57:05.998Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "6a24054e-8d2a-498e-a6f4-7113e8efc58f",
+        "name": "Task 1",
+        "description": "Front-end development",
+        "start_date": "2023-09-21T02:25:48.077Z",
+        "end_date": "2023-09-20T20:13:00.315Z",
+        "status": "Not started",
+        "created_at": "2023-09-21T08:47:25.568Z",
+        "updated_at": "2023-09-20T23:18:16.280Z",
+        "project_id": "811b0ee3-d69b-477d-be16-764bcbd4e34d"
+      },
+      {
+        "id": "d3e7892e-38cb-4128-8040-fb13e12efa0b",
+        "name": "Task 2",
+        "description": "Content creation",
+        "start_date": "2023-09-20T17:09:00.504Z",
+        "end_date": "2023-09-20T20:59:40.886Z",
+        "status": "In progress",
+        "created_at": "2023-09-21T07:43:27.015Z",
+        "updated_at": "2023-09-20T19:59:00.578Z",
+        "project_id": "4e104ba8-ab18-47ae-b42e-ccb7865f6991"
+      },
+      {
+        "id": "750a7e26-bfdf-4cac-b9be-76b17d776bda",
+        "name": "Task 3",
+        "description": "Lead generation",
+        "start_date": "2023-09-20T17:32:44.965Z",
+        "end_date": "2023-09-20T23:20:23.752Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T12:25:47.879Z",
+        "updated_at": "2023-09-20T18:03:33.317Z",
+        "project_id": "811b0ee3-d69b-477d-be16-764bcbd4e34d"
+      },
+      {
+        "id": "615e661e-893d-422a-a5c8-e4bcb609a2bd",
+        "name": "Task 4",
+        "description": "Wireframing",
+        "start_date": "2023-09-20T17:37:58.195Z",
+        "end_date": "2023-09-20T21:02:01.634Z",
+        "status": "Delayed",
+        "created_at": "2023-09-20T21:29:09.089Z",
+        "updated_at": "2023-09-21T06:59:54.463Z",
+        "project_id": "4e104ba8-ab18-47ae-b42e-ccb7865f6991"
+      },
+      {
+        "id": "a7ae3463-e03a-4ab4-b273-b5951ea2f4dc",
+        "name": "Task 5",
+        "description": "Quality assurance",
+        "start_date": "2023-09-20T09:48:31.778Z",
+        "end_date": "2023-09-21T01:39:18.444Z",
+        "status": "Blocked",
+        "created_at": "2023-09-20T18:19:30.605Z",
+        "updated_at": "2023-09-21T08:10:47.869Z",
+        "project_id": "811b0ee3-d69b-477d-be16-764bcbd4e34d"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "c6d889dd-a2ac-465e-aa12-efee5dd44f47",
+        "created_at": "2023-09-21T02:32:29.700Z",
+        "updated_at": "2023-09-20T20:07:53.879Z",
+        "task_id": "a7ae3463-e03a-4ab4-b273-b5951ea2f4dc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3957bf97-2b6b-451c-8ea4-acf86d0da6bf",
+        "created_at": "2023-09-20T19:52:05.270Z",
+        "updated_at": "2023-09-21T05:12:43.867Z",
+        "task_id": "d3e7892e-38cb-4128-8040-fb13e12efa0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2e86e06-69db-491b-8d0e-feb5973c92cb",
+        "created_at": "2023-09-21T00:26:02.260Z",
+        "updated_at": "2023-09-21T03:08:41.294Z",
+        "task_id": "d3e7892e-38cb-4128-8040-fb13e12efa0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c028207-b9fa-4c0b-b851-64b1aa6996f6",
+        "created_at": "2023-09-21T02:28:07.339Z",
+        "updated_at": "2023-09-20T09:18:05.766Z",
+        "task_id": "615e661e-893d-422a-a5c8-e4bcb609a2bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51d51d53-7d6f-4f73-8bcb-df3d12ece7f2",
+        "created_at": "2023-09-20T19:06:21.591Z",
+        "updated_at": "2023-09-20T19:30:05.957Z",
+        "task_id": "750a7e26-bfdf-4cac-b9be-76b17d776bda",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "58309963-6c04-4ab0-afcf-fcb23f13ee2a",
+        "email": "Mossie.Littel-Bogisich@roq.tech",
+        "firstName": "Ona",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83450082",
+        "tenantId": null
+      },
+      {
+        "reference": "865239e6-9e52-486a-89c8-765da4aa8310",
+        "email": "Wilson_Spinka@roq.tech",
+        "firstName": "Brooklyn",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3514076",
+        "tenantId": null
+      },
+      {
+        "reference": "ecd1cbd1-b3ec-4a2a-984d-0c11948e5c4e",
+        "email": "Jackeline_Towne@roq.tech",
+        "firstName": "Meggie",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/906.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1ed0808-f30d-4055-a8f6-ab93042eb0cb",
+        "email": "Kamron_Armstrong89@roq.tech",
+        "firstName": "Frederic",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34601924",
+        "tenantId": null
+      },
+      {
+        "reference": "e7bd81bb-bc95-4a4b-ba18-017d951358d0",
+        "email": "Angelita_Yost74@roq.tech",
+        "firstName": "Dakota",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "ab3f7ff7-1d15-4022-aa62-6dfbbca2ae3a",
+        "name": "Development Team",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T17:13:34.950Z",
+        "updated_at": "2023-09-20T22:21:42.055Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6fd61aed-cbd2-4fb1-9939-56dcae63a60a",
+        "name": "Sales Team",
+        "description": "Handles sales and customer relationships",
+        "created_at": "2023-09-20T16:20:09.102Z",
+        "updated_at": "2023-09-20T16:49:33.491Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f1c9da97-166f-4047-8c23-54bc6dcd21f1",
+        "name": "Marketing Team",
+        "description": "Executes marketing campaigns",
+        "created_at": "2023-09-20T17:22:43.389Z",
+        "updated_at": "2023-09-21T02:19:31.062Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1e3df80a-2b33-4a38-ae09-36ed9f3b9c0d",
+        "name": "Operations Team",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-20T10:37:42.618Z",
+        "updated_at": "2023-09-21T04:34:08.659Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "033ceefd-3f6b-4770-886e-977f0c87ef81",
+        "name": "Design Team",
+        "description": "Creates visual designs",
+        "created_at": "2023-09-20T23:29:32.901Z",
+        "updated_at": "2023-09-21T07:25:32.010Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "fc4f1ad0-d8b6-479e-97e1-19c646892040",
+        "created_at": "2023-09-21T08:57:34.311Z",
+        "updated_at": "2023-09-21T01:53:33.240Z",
+        "team_id": "ab3f7ff7-1d15-4022-aa62-6dfbbca2ae3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e689045-5c79-49c6-a51f-a0d073a75010",
+        "created_at": "2023-09-20T15:19:14.737Z",
+        "updated_at": "2023-09-21T05:38:24.497Z",
+        "team_id": "6fd61aed-cbd2-4fb1-9939-56dcae63a60a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f8a0a78-1864-4c87-8f9b-8b8abfe4cbe8",
+        "created_at": "2023-09-20T17:54:50.507Z",
+        "updated_at": "2023-09-20T12:59:50.905Z",
+        "team_id": "1e3df80a-2b33-4a38-ae09-36ed9f3b9c0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c30e07e-602d-426b-b8be-5bc28af1d5a7",
+        "created_at": "2023-09-21T08:34:57.780Z",
+        "updated_at": "2023-09-21T05:24:18.764Z",
+        "team_id": "6fd61aed-cbd2-4fb1-9939-56dcae63a60a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aa61d41-364c-4f5e-a8dc-af92603328dc",
+        "created_at": "2023-09-20T11:52:10.246Z",
+        "updated_at": "2023-09-20T12:51:18.877Z",
+        "team_id": "033ceefd-3f6b-4770-886e-977f0c87ef81",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "281fd596-322e-4c2c-aff3-54dc50edbd8e",
+        "name": "Project A",
+        "description": "A web application for managing tasks",
+        "start_date": "2023-09-20T22:04:44.160Z",
+        "end_date": "2023-09-21T07:16:18.027Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T12:08:22.843Z",
+        "updated_at": "2023-09-20T19:05:45.609Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ee31eac0-2510-478b-a5c0-84b1f2bc7ca4",
+        "name": "Project B",
+        "description": "An e-commerce platform",
+        "start_date": "2023-09-21T04:11:52.011Z",
+        "end_date": "2023-09-21T07:33:30.635Z",
+        "status": "On hold",
+        "created_at": "2023-09-20T20:00:33.484Z",
+        "updated_at": "2023-09-20T23:26:21.198Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bb232700-3bf2-4e5d-ab1d-ef9901cf6464",
+        "name": "Project C",
+        "description": "A digital marketing campaign",
+        "start_date": "2023-09-21T03:27:24.315Z",
+        "end_date": "2023-09-20T18:18:55.053Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T11:09:26.966Z",
+        "updated_at": "2023-09-20T12:08:24.739Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e4f268ef-8660-47d3-8c29-67d672887a1b",
+        "name": "Project D",
+        "description": "An organizational restructuring initiative",
+        "start_date": "2023-09-21T04:58:03.310Z",
+        "end_date": "2023-09-20T11:05:04.454Z",
+        "status": "Delayed",
+        "created_at": "2023-09-21T02:04:58.775Z",
+        "updated_at": "2023-09-20T17:12:35.240Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6aae7119-d165-4031-80f8-8acb3095f541",
+        "name": "Project E",
+        "description": "A product design and development project",
+        "start_date": "2023-09-20T10:23:41.832Z",
+        "end_date": "2023-09-21T07:19:18.348Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-21T01:20:22.831Z",
+        "updated_at": "2023-09-20T23:55:42.035Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "a0a95e99-8294-4408-8fa5-0a191b999f1c",
+        "name": "Task 1",
+        "description": "Implement user authentication feature",
+        "start_date": "2023-09-20T18:37:31.157Z",
+        "end_date": "2023-09-20T12:20:17.336Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T18:47:09.494Z",
+        "updated_at": "2023-09-21T01:49:34.591Z",
+        "project_id": "e4f268ef-8660-47d3-8c29-67d672887a1b"
+      },
+      {
+        "id": "98ba1680-90dd-48c6-add5-c11d45522c73",
+        "name": "Task 2",
+        "description": "Optimize website performance",
+        "start_date": "2023-09-20T23:56:54.712Z",
+        "end_date": "2023-09-20T11:40:27.094Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T23:56:51.575Z",
+        "updated_at": "2023-09-20T22:33:59.296Z",
+        "project_id": "281fd596-322e-4c2c-aff3-54dc50edbd8e"
+      },
+      {
+        "id": "150485b5-738f-44c5-be13-1554f56b79d7",
+        "name": "Task 3",
+        "description": "Create social media content",
+        "start_date": "2023-09-20T18:41:33.833Z",
+        "end_date": "2023-09-20T18:54:44.882Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T17:59:59.989Z",
+        "updated_at": "2023-09-21T08:47:49.216Z",
+        "project_id": "ee31eac0-2510-478b-a5c0-84b1f2bc7ca4"
+      },
+      {
+        "id": "e5841b11-682b-4fa8-91cb-5798c84e45bd",
+        "name": "Task 4",
+        "description": "Review and update company policies",
+        "start_date": "2023-09-20T22:46:11.444Z",
+        "end_date": "2023-09-20T16:56:42.896Z",
+        "status": "Blocked",
+        "created_at": "2023-09-20T09:46:29.795Z",
+        "updated_at": "2023-09-21T02:47:28.936Z",
+        "project_id": "ee31eac0-2510-478b-a5c0-84b1f2bc7ca4"
+      },
+      {
+        "id": "a68de68b-5dba-4d58-af69-7378cb8e9766",
+        "name": "Task 5",
+        "description": "Design a new product logo",
+        "start_date": "2023-09-20T18:07:05.793Z",
+        "end_date": "2023-09-20T20:47:19.016Z",
+        "status": "Assigned",
+        "created_at": "2023-09-21T08:03:17.763Z",
+        "updated_at": "2023-09-21T07:48:04.128Z",
+        "project_id": "ee31eac0-2510-478b-a5c0-84b1f2bc7ca4"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "fc0e59a8-1d3b-4b4c-9178-f1db849f201b",
+        "created_at": "2023-09-20T11:50:02.025Z",
+        "updated_at": "2023-09-20T12:41:06.420Z",
+        "task_id": "98ba1680-90dd-48c6-add5-c11d45522c73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e525b0bd-0b2e-4e86-aac8-eff88d1701d7",
+        "created_at": "2023-09-21T06:30:59.567Z",
+        "updated_at": "2023-09-21T08:48:46.178Z",
+        "task_id": "a0a95e99-8294-4408-8fa5-0a191b999f1c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c35a684-6205-4029-aa93-58082cf25567",
+        "created_at": "2023-09-20T11:42:45.929Z",
+        "updated_at": "2023-09-21T05:49:41.113Z",
+        "task_id": "a68de68b-5dba-4d58-af69-7378cb8e9766",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "390e8af6-0b35-4791-8239-89e344f79dab",
+        "created_at": "2023-09-20T16:28:55.421Z",
+        "updated_at": "2023-09-21T08:06:55.926Z",
+        "task_id": "e5841b11-682b-4fa8-91cb-5798c84e45bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5da9db7-daf8-433b-bf7a-462cbf7834f6",
+        "created_at": "2023-09-20T18:16:15.692Z",
+        "updated_at": "2023-09-21T05:33:54.916Z",
+        "task_id": "150485b5-738f-44c5-be13-1554f56b79d7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ffaa3aec-b460-424d-ab34-0a4ec7f684ab",
+        "email": "Nat43@roq.tech",
+        "firstName": "Mortimer",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/775.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae8cfc09-e9bb-42c8-8e86-5c4b61affb1f",
+        "email": "Jorge.Jacobson-Towne4@roq.tech",
+        "firstName": "Sophia",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35158427",
+        "tenantId": null
+      },
+      {
+        "reference": "9e7565c0-3f3e-466a-adf0-5a6790dc19cc",
+        "email": "Abdul.Swaniawski@roq.tech",
+        "firstName": "Charlotte",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e0e51bc4-9502-4685-bf95-3202035914b1",
+        "email": "Magali_Pacocha14@roq.tech",
+        "firstName": "Mia",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71473541",
+        "tenantId": null
+      },
+      {
+        "reference": "efa08840-d39e-4c93-94ff-e013f4303bbc",
+        "email": "Gilda.Schneider44@roq.tech",
+        "firstName": "Nash",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/9.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "61afd323-b4e6-4e8e-9cea-d4e97590c3d6",
+        "name": "Development Team",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T11:02:01.433Z",
+        "updated_at": "2023-09-20T21:32:31.838Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a5e24b49-f82a-49e4-a1e0-fe6b37555cbe",
+        "name": "Marketing Team",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-20T16:03:08.153Z",
+        "updated_at": "2023-09-21T06:36:36.184Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f596ac6b-2d13-4c0f-94b0-402cfb1cced2",
+        "name": "Sales Team",
+        "description": "Manages sales activities",
+        "created_at": "2023-09-20T14:37:20.698Z",
+        "updated_at": "2023-09-20T18:53:56.806Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b53d31fd-f256-4c77-b502-210157ead774",
+        "name": "Design Team",
+        "description": "Creates visual designs",
+        "created_at": "2023-09-20T12:27:50.442Z",
+        "updated_at": "2023-09-21T08:44:34.056Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6a9a9ef8-2211-418b-ac70-5215015dc134",
+        "name": "Customer Support Team",
+        "description": "Provides customer support",
+        "created_at": "2023-09-20T13:36:42.731Z",
+        "updated_at": "2023-09-20T19:01:18.299Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "1261a373-35a6-4571-8fd7-f08fb759076b",
+        "created_at": "2023-09-21T01:10:06.520Z",
+        "updated_at": "2023-09-21T03:16:00.972Z",
+        "team_id": "61afd323-b4e6-4e8e-9cea-d4e97590c3d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58f9f001-4535-4efc-b758-b5adcf0d5d7f",
+        "created_at": "2023-09-20T10:07:31.660Z",
+        "updated_at": "2023-09-20T23:51:51.495Z",
+        "team_id": "61afd323-b4e6-4e8e-9cea-d4e97590c3d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e165fa7-0613-4d97-8535-6d94f6819a6a",
+        "created_at": "2023-09-20T12:03:59.233Z",
+        "updated_at": "2023-09-20T14:05:52.272Z",
+        "team_id": "61afd323-b4e6-4e8e-9cea-d4e97590c3d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20f3ef26-bb45-44c3-b903-b7eff3f581a8",
+        "created_at": "2023-09-21T05:01:41.524Z",
+        "updated_at": "2023-09-21T08:45:16.870Z",
+        "team_id": "6a9a9ef8-2211-418b-ac70-5215015dc134",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c93c5060-597f-45a5-8ebf-bfd440c6ce2f",
+        "created_at": "2023-09-20T11:23:50.046Z",
+        "updated_at": "2023-09-20T10:02:48.162Z",
+        "team_id": "61afd323-b4e6-4e8e-9cea-d4e97590c3d6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "7cb46af6-f975-4c09-acb2-8b07d2521063",
+        "name": "Project X",
+        "description": "A top-secret project",
+        "start_date": "2023-09-21T02:18:57.929Z",
+        "end_date": "2023-09-21T02:38:00.400Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T20:38:55.602Z",
+        "updated_at": "2023-09-21T08:32:58.429Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3642598f-0aa0-469a-b44d-6a665a5ac11f",
+        "name": "New Product Launch",
+        "description": "Introducing a revolutionary product",
+        "start_date": "2023-09-20T21:25:32.388Z",
+        "end_date": "2023-09-20T10:44:42.650Z",
+        "status": "On Hold",
+        "created_at": "2023-09-21T06:31:11.483Z",
+        "updated_at": "2023-09-21T02:53:13.206Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f65a6855-a482-41d9-bcd5-0ac2c5cdfcf5",
+        "name": "Marketing Campaign",
+        "description": "Promoting a new product line",
+        "start_date": "2023-09-21T01:34:52.489Z",
+        "end_date": "2023-09-20T09:32:14.446Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T07:37:26.290Z",
+        "updated_at": "2023-09-20T11:30:07.427Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0db7b399-5c22-45c8-bb45-b7ae4a767c3a",
+        "name": "Website Redesign",
+        "description": "Enhancing user experience",
+        "start_date": "2023-09-21T06:25:31.838Z",
+        "end_date": "2023-09-21T01:18:31.516Z",
+        "status": "Delayed",
+        "created_at": "2023-09-20T11:33:20.133Z",
+        "updated_at": "2023-09-20T23:15:51.984Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8952976b-08b0-4a15-80e7-d951080e6f2f",
+        "name": "Customer Portal Development",
+        "description": "Improving customer engagement",
+        "start_date": "2023-09-21T08:45:01.088Z",
+        "end_date": "2023-09-20T15:28:37.510Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-21T01:05:08.434Z",
+        "updated_at": "2023-09-21T01:19:22.961Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "e02bbae1-a9c2-4a32-829d-cc4350516f49",
+        "name": "Task 1",
+        "description": "Implement feature X",
+        "start_date": "2023-09-21T08:39:43.359Z",
+        "end_date": "2023-09-21T00:21:51.717Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T21:06:11.740Z",
+        "updated_at": "2023-09-21T07:26:38.044Z",
+        "project_id": "f65a6855-a482-41d9-bcd5-0ac2c5cdfcf5"
+      },
+      {
+        "id": "b4ee3d39-e050-4e4a-868b-11f0f7ef019a",
+        "name": "Task 2",
+        "description": "Conduct market research",
+        "start_date": "2023-09-20T11:55:00.038Z",
+        "end_date": "2023-09-20T10:32:36.746Z",
+        "status": "In Progress",
+        "created_at": "2023-09-21T03:49:02.119Z",
+        "updated_at": "2023-09-20T13:54:22.617Z",
+        "project_id": "7cb46af6-f975-4c09-acb2-8b07d2521063"
+      },
+      {
+        "id": "1fb8d922-a80e-4117-a3ed-8d4f3d243886",
+        "name": "Task 3",
+        "description": "Prepare sales presentation",
+        "start_date": "2023-09-21T07:16:47.018Z",
+        "end_date": "2023-09-21T01:48:44.000Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T01:01:34.632Z",
+        "updated_at": "2023-09-20T16:36:27.422Z",
+        "project_id": "0db7b399-5c22-45c8-bb45-b7ae4a767c3a"
+      },
+      {
+        "id": "e14f9bae-d5db-4547-a129-483e9d9ead73",
+        "name": "Task 4",
+        "description": "Design user interface",
+        "start_date": "2023-09-20T16:18:19.436Z",
+        "end_date": "2023-09-20T14:50:57.233Z",
+        "status": "Blocked",
+        "created_at": "2023-09-20T09:29:00.344Z",
+        "updated_at": "2023-09-20T19:10:52.166Z",
+        "project_id": "7cb46af6-f975-4c09-acb2-8b07d2521063"
+      },
+      {
+        "id": "658ef2d8-83fb-4687-942a-766ffe5986b2",
+        "name": "Task 5",
+        "description": "Resolve customer issues",
+        "start_date": "2023-09-20T10:38:34.463Z",
+        "end_date": "2023-09-20T13:39:56.257Z",
+        "status": "Assigned",
+        "created_at": "2023-09-21T03:28:59.184Z",
+        "updated_at": "2023-09-20T23:06:43.785Z",
+        "project_id": "f65a6855-a482-41d9-bcd5-0ac2c5cdfcf5"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "73ac576a-a7e2-461a-bebd-48d380b0c56f",
+        "created_at": "2023-09-20T13:07:45.810Z",
+        "updated_at": "2023-09-20T15:41:35.972Z",
+        "task_id": "e02bbae1-a9c2-4a32-829d-cc4350516f49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad9f047e-e2eb-46f4-b415-1af92a1c2220",
+        "created_at": "2023-09-20T10:03:12.615Z",
+        "updated_at": "2023-09-20T13:10:38.922Z",
+        "task_id": "e14f9bae-d5db-4547-a129-483e9d9ead73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5142448c-6c6c-4ee1-b439-7f5e2f8400f0",
+        "created_at": "2023-09-20T12:26:50.357Z",
+        "updated_at": "2023-09-21T07:48:15.636Z",
+        "task_id": "b4ee3d39-e050-4e4a-868b-11f0f7ef019a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dccc9fc8-c849-4114-ae7c-452bdec2dc72",
+        "created_at": "2023-09-20T21:16:39.702Z",
+        "updated_at": "2023-09-21T04:49:41.941Z",
+        "task_id": "658ef2d8-83fb-4687-942a-766ffe5986b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcc2f331-5a90-486b-8048-cc87f6620e20",
+        "created_at": "2023-09-21T04:22:28.917Z",
+        "updated_at": "2023-09-21T06:43:27.848Z",
+        "task_id": "658ef2d8-83fb-4687-942a-766ffe5986b2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b22b7782-f546-4689-8674-4d89f1ca160a",
+        "email": "Autumn44@roq.tech",
+        "firstName": "Halie",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48696790",
+        "tenantId": null
+      },
+      {
+        "reference": "64d86d39-7234-4ade-bbcd-692d5bdb2c56",
+        "email": "Kristopher_Wolf@roq.tech",
+        "firstName": "Dianna",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77026665",
+        "tenantId": null
+      },
+      {
+        "reference": "f7b9eeee-aed9-4589-9861-02a53fc4fdd4",
+        "email": "Deontae_Braun84@roq.tech",
+        "firstName": "Frank",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/536.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a3de3ce9-caa1-4aa3-9ed7-402fbca64683",
+        "email": "Sophie.Greenfelder@roq.tech",
+        "firstName": "Sabrina",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/569.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61b870db-9fe7-4f7c-9642-ee610f783c81",
+        "email": "Melisa.Balistreri@roq.tech",
+        "firstName": "Trey",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/329.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "64ca319c-27c8-48e0-b9c8-b4e65eb93c3c",
+        "name": "Development Team",
+        "description": "Responsible for building and maintaining software applications",
+        "created_at": "2023-09-20T15:05:12.139Z",
+        "updated_at": "2023-09-21T08:32:52.521Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8fe5acc9-ae44-47a0-bdbc-efc55fa18dda",
+        "name": "Marketing Team",
+        "description": "Responsible for promoting and advertising products",
+        "created_at": "2023-09-21T00:00:28.074Z",
+        "updated_at": "2023-09-20T11:51:49.247Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e43f93f3-384c-433a-9107-7ed5ed2bb9d0",
+        "name": "Sales Team",
+        "description": "Responsible for generating sales and revenue",
+        "created_at": "2023-09-21T06:50:43.591Z",
+        "updated_at": "2023-09-20T09:55:25.423Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "945ae291-6743-4b21-bf1d-22aa18eccdb3",
+        "name": "Operations Team",
+        "description": "Responsible for managing day-to-day operations",
+        "created_at": "2023-09-20T17:00:46.422Z",
+        "updated_at": "2023-09-21T09:00:02.788Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "73ca47ac-e41b-48b5-bdf9-5f35351fdd3f",
+        "name": "Product Team",
+        "description": "Responsible for product strategy and development",
+        "created_at": "2023-09-20T10:28:39.093Z",
+        "updated_at": "2023-09-20T12:31:51.019Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "183ce62e-2caa-4484-add5-f16a35f05bd1",
+        "created_at": "2023-09-21T06:29:09.011Z",
+        "updated_at": "2023-09-21T02:35:56.723Z",
+        "team_id": "64ca319c-27c8-48e0-b9c8-b4e65eb93c3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d8d0c62-c2e9-4073-b932-469ac088bb23",
+        "created_at": "2023-09-21T08:34:05.241Z",
+        "updated_at": "2023-09-21T01:46:32.126Z",
+        "team_id": "64ca319c-27c8-48e0-b9c8-b4e65eb93c3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04e471e2-658c-4591-8609-4b1d19a1d8f5",
+        "created_at": "2023-09-21T05:53:34.483Z",
+        "updated_at": "2023-09-20T20:09:43.711Z",
+        "team_id": "945ae291-6743-4b21-bf1d-22aa18eccdb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62846a0d-adcc-467f-bff5-25a8aeff115e",
+        "created_at": "2023-09-21T06:18:38.367Z",
+        "updated_at": "2023-09-21T00:06:13.811Z",
+        "team_id": "8fe5acc9-ae44-47a0-bdbc-efc55fa18dda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a92af33-af44-4c82-98ab-5ff6cf6d6489",
+        "created_at": "2023-09-20T11:41:31.075Z",
+        "updated_at": "2023-09-21T04:05:44.889Z",
+        "team_id": "e43f93f3-384c-433a-9107-7ed5ed2bb9d0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "d90492f3-4110-42e1-814f-9a5a8a057d43",
+        "name": "Project A",
+        "description": "A new website for a client",
+        "start_date": "2023-09-20T17:40:54.607Z",
+        "end_date": "2023-09-20T09:42:44.427Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T17:57:37.326Z",
+        "updated_at": "2023-09-20T21:50:55.984Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bb97f686-5cd9-4926-b27f-03cd5a65364c",
+        "name": "Project B",
+        "description": "An app for managing personal finances",
+        "start_date": "2023-09-20T20:52:29.818Z",
+        "end_date": "2023-09-20T19:52:47.334Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T05:46:47.869Z",
+        "updated_at": "2023-09-21T01:25:49.275Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5a3c0ff8-1995-4dd5-9939-84bc6fe8613e",
+        "name": "Project C",
+        "description": "A system for tracking inventory",
+        "start_date": "2023-09-21T07:59:55.608Z",
+        "end_date": "2023-09-21T06:02:12.774Z",
+        "status": "On hold",
+        "created_at": "2023-09-20T10:24:51.038Z",
+        "updated_at": "2023-09-21T00:54:40.426Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6642fb4f-294a-41c8-abed-199a957e1d24",
+        "name": "Project D",
+        "description": "A marketing campaign for a new product",
+        "start_date": "2023-09-21T06:52:56.434Z",
+        "end_date": "2023-09-20T20:38:30.296Z",
+        "status": "Delayed",
+        "created_at": "2023-09-20T16:07:15.774Z",
+        "updated_at": "2023-09-20T16:43:41.650Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0692909e-f9a7-440e-8545-d2d9de2eef90",
+        "name": "Project E",
+        "description": "A research project on customer behavior",
+        "start_date": "2023-09-20T17:43:39.471Z",
+        "end_date": "2023-09-20T12:12:53.224Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-20T14:07:13.205Z",
+        "updated_at": "2023-09-20T17:07:19.865Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "3679a455-de2c-4e1b-b612-5e44ad91efb7",
+        "name": "Task 1",
+        "description": "Implement login functionality",
+        "start_date": "2023-09-20T22:41:54.768Z",
+        "end_date": "2023-09-21T00:17:40.392Z",
+        "status": "To do",
+        "created_at": "2023-09-21T01:46:36.481Z",
+        "updated_at": "2023-09-20T21:20:36.875Z",
+        "project_id": "0692909e-f9a7-440e-8545-d2d9de2eef90"
+      },
+      {
+        "id": "7741366f-ba1b-4ffb-9b03-825ce088acf6",
+        "name": "Task 2",
+        "description": "Create user interface mockups",
+        "start_date": "2023-09-20T15:10:36.973Z",
+        "end_date": "2023-09-20T19:05:32.930Z",
+        "status": "In progress",
+        "created_at": "2023-09-21T00:42:14.268Z",
+        "updated_at": "2023-09-21T03:06:08.740Z",
+        "project_id": "5a3c0ff8-1995-4dd5-9939-84bc6fe8613e"
+      },
+      {
+        "id": "e5f0853f-e3b7-40f9-ace7-2c5bef75fcc9",
+        "name": "Task 3",
+        "description": "Write API documentation",
+        "start_date": "2023-09-20T17:23:57.729Z",
+        "end_date": "2023-09-20T17:09:37.421Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T22:21:53.949Z",
+        "updated_at": "2023-09-20T13:40:18.520Z",
+        "project_id": "6642fb4f-294a-41c8-abed-199a957e1d24"
+      },
+      {
+        "id": "7c8247fa-9849-4b17-99c0-ab9d874cf429",
+        "name": "Task 4",
+        "description": "Test application for bugs",
+        "start_date": "2023-09-21T02:53:35.928Z",
+        "end_date": "2023-09-21T00:39:00.963Z",
+        "status": "Blocked",
+        "created_at": "2023-09-21T02:36:28.428Z",
+        "updated_at": "2023-09-21T05:19:13.920Z",
+        "project_id": "bb97f686-5cd9-4926-b27f-03cd5a65364c"
+      },
+      {
+        "id": "c9e84039-c1b3-43d5-8e7f-bae3f36a6518",
+        "name": "Task 5",
+        "description": "Optimize database performance",
+        "start_date": "2023-09-21T01:23:22.532Z",
+        "end_date": "2023-09-20T14:36:13.444Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T11:37:31.742Z",
+        "updated_at": "2023-09-21T04:56:40.013Z",
+        "project_id": "0692909e-f9a7-440e-8545-d2d9de2eef90"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "c2c6acf0-fbe4-414c-9eaf-853112eec8d1",
+        "created_at": "2023-09-21T06:11:24.735Z",
+        "updated_at": "2023-09-20T17:00:00.436Z",
+        "task_id": "7c8247fa-9849-4b17-99c0-ab9d874cf429",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab9e8c5d-bc4a-4a6d-b0a0-bc5a0d34c433",
+        "created_at": "2023-09-21T02:41:02.723Z",
+        "updated_at": "2023-09-20T17:15:35.366Z",
+        "task_id": "e5f0853f-e3b7-40f9-ace7-2c5bef75fcc9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62ebf9e2-a394-44f6-b937-f206620c713c",
+        "created_at": "2023-09-20T12:29:35.634Z",
+        "updated_at": "2023-09-21T04:46:18.166Z",
+        "task_id": "7741366f-ba1b-4ffb-9b03-825ce088acf6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65ec4cdb-0df2-460d-accd-78930d16e2ff",
+        "created_at": "2023-09-20T14:36:48.283Z",
+        "updated_at": "2023-09-21T01:32:06.525Z",
+        "task_id": "c9e84039-c1b3-43d5-8e7f-bae3f36a6518",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8376583-a262-4c01-815b-a08e0bb6068a",
+        "created_at": "2023-09-20T22:44:55.406Z",
+        "updated_at": "2023-09-20T21:26:11.170Z",
+        "task_id": "3679a455-de2c-4e1b-b612-5e44ad91efb7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19286fc1-bc6f-4b2b-86e2-e213f31f68b6",
+        "email": "Donnell12@roq.tech",
+        "firstName": "Isom",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/806.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "409f0b9b-a8f0-4d42-9b33-78046726712f",
+        "email": "Alejandra.Crooks@roq.tech",
+        "firstName": "Rossie",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1040.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "daf51078-b9b7-4bab-aa82-d4049c13be84",
+        "email": "Rachelle81@roq.tech",
+        "firstName": "Donnie",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40852048",
+        "tenantId": null
+      },
+      {
+        "reference": "2b64b4cb-0a88-458e-af7c-f712740454f8",
+        "email": "Lilian.Sawayn@roq.tech",
+        "firstName": "Ron",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/487.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9f29eb46-01f8-46f9-bc46-2040759f048c",
+        "email": "Edgardo.Herzog@roq.tech",
+        "firstName": "Doris",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/979.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "71cac4e9-87f2-49de-8c3e-36100c7e8dbd",
+        "name": "Development Team",
+        "description": "Responsible for developing new features",
+        "created_at": "2023-09-20T19:28:39.518Z",
+        "updated_at": "2023-09-20T18:15:50.561Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "480e591d-fd95-4157-8953-0e73f90dd388",
+        "name": "Marketing Team",
+        "description": "Handles all marketing campaigns",
+        "created_at": "2023-09-20T19:35:59.115Z",
+        "updated_at": "2023-09-20T10:12:45.889Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dc2e20ab-e41d-4fdd-ab59-ba48392ccd91",
+        "name": "Sales Team",
+        "description": "Responsible for sales and customer relations",
+        "created_at": "2023-09-21T07:34:55.853Z",
+        "updated_at": "2023-09-21T05:34:10.233Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "59b0604b-d92e-413b-8abc-9ab53eddae3e",
+        "name": "Design Team",
+        "description": "Creates visual designs for products",
+        "created_at": "2023-09-20T18:47:03.136Z",
+        "updated_at": "2023-09-20T18:03:16.718Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "887a9384-2ade-4fc8-a769-301d0c945e07",
+        "name": "Operations Team",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-20T23:02:38.382Z",
+        "updated_at": "2023-09-21T00:11:32.811Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "0e93a07f-4f7f-4489-a531-06d66486b33e",
+        "created_at": "2023-09-21T04:02:45.637Z",
+        "updated_at": "2023-09-20T16:00:04.013Z",
+        "team_id": "480e591d-fd95-4157-8953-0e73f90dd388",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2115c4a8-4197-44cd-adf4-7cac8438e0eb",
+        "created_at": "2023-09-20T16:32:53.234Z",
+        "updated_at": "2023-09-20T16:33:30.207Z",
+        "team_id": "887a9384-2ade-4fc8-a769-301d0c945e07",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9a3e94b-33fb-4121-bb84-d45f1e72dd03",
+        "created_at": "2023-09-21T07:04:41.352Z",
+        "updated_at": "2023-09-20T23:39:24.540Z",
+        "team_id": "59b0604b-d92e-413b-8abc-9ab53eddae3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92b55e5c-1a03-4bb2-b51f-478d5952d15c",
+        "created_at": "2023-09-20T17:22:36.072Z",
+        "updated_at": "2023-09-20T16:35:08.297Z",
+        "team_id": "480e591d-fd95-4157-8953-0e73f90dd388",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "476d101c-cffc-40a1-956d-a92f5dd8f5b8",
+        "created_at": "2023-09-20T10:16:41.282Z",
+        "updated_at": "2023-09-21T02:27:59.480Z",
+        "team_id": "887a9384-2ade-4fc8-a769-301d0c945e07",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "99db58ba-d087-496c-834e-6caf91d952e6",
+        "name": "Project A",
+        "description": "A web application for online shopping",
+        "start_date": "2023-09-20T13:18:44.064Z",
+        "end_date": "2023-09-20T17:11:36.543Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T15:47:34.220Z",
+        "updated_at": "2023-09-20T19:05:51.938Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3e9572f1-5a3d-402a-b603-00163e39c712",
+        "name": "Project B",
+        "description": "A mobile app for task management",
+        "start_date": "2023-09-21T02:58:24.246Z",
+        "end_date": "2023-09-20T17:11:32.417Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T11:01:36.305Z",
+        "updated_at": "2023-09-21T09:11:53.852Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b52d64af-4469-4822-bf52-76ffdd7e12ee",
+        "name": "Project C",
+        "description": "An ERP system for inventory management",
+        "start_date": "2023-09-20T22:37:24.855Z",
+        "end_date": "2023-09-21T04:06:19.649Z",
+        "status": "On hold",
+        "created_at": "2023-09-21T01:32:17.632Z",
+        "updated_at": "2023-09-20T21:56:55.246Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "53760ef0-dd45-4f0a-ade9-3ecae22110c3",
+        "name": "Project D",
+        "description": "A website for a restaurant",
+        "start_date": "2023-09-21T01:54:24.164Z",
+        "end_date": "2023-09-20T15:01:18.857Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T15:08:07.769Z",
+        "updated_at": "2023-09-20T15:09:18.932Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c3de9f98-9e7b-469e-ba80-6c56b47c9792",
+        "name": "Project E",
+        "description": "A CRM system for sales tracking",
+        "start_date": "2023-09-21T00:52:53.405Z",
+        "end_date": "2023-09-20T22:34:35.511Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T14:52:50.431Z",
+        "updated_at": "2023-09-20T10:17:11.421Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "a29b8387-11bf-49b5-b2f4-15dda91bb4e5",
+        "name": "Task 1",
+        "description": "Implement user authentication",
+        "start_date": "2023-09-20T18:13:00.576Z",
+        "end_date": "2023-09-20T16:37:13.827Z",
+        "status": "To do",
+        "created_at": "2023-09-20T18:41:02.792Z",
+        "updated_at": "2023-09-21T08:02:35.964Z",
+        "project_id": "b52d64af-4469-4822-bf52-76ffdd7e12ee"
+      },
+      {
+        "id": "a5e8cfe9-e9e1-42c8-8a51-52dbb1f7b76c",
+        "name": "Task 2",
+        "description": "Design user interface",
+        "start_date": "2023-09-20T17:41:00.395Z",
+        "end_date": "2023-09-20T09:42:32.820Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T11:52:20.814Z",
+        "updated_at": "2023-09-20T18:49:13.435Z",
+        "project_id": "b52d64af-4469-4822-bf52-76ffdd7e12ee"
+      },
+      {
+        "id": "e9a87d4f-1cb3-46a3-af68-cf0a01a652dd",
+        "name": "Task 3",
+        "description": "Write API documentation",
+        "start_date": "2023-09-20T12:48:49.835Z",
+        "end_date": "2023-09-20T12:49:24.557Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T00:27:14.464Z",
+        "updated_at": "2023-09-20T10:37:06.237Z",
+        "project_id": "99db58ba-d087-496c-834e-6caf91d952e6"
+      },
+      {
+        "id": "4a4d3825-fd9c-4e4f-b06e-9288d4eb4595",
+        "name": "Task 4",
+        "description": "Test application for bugs",
+        "start_date": "2023-09-21T04:32:44.916Z",
+        "end_date": "2023-09-21T03:27:23.321Z",
+        "status": "Blocked",
+        "created_at": "2023-09-20T15:19:52.189Z",
+        "updated_at": "2023-09-20T09:58:21.015Z",
+        "project_id": "99db58ba-d087-496c-834e-6caf91d952e6"
+      },
+      {
+        "id": "b8f53f3a-82d1-492b-9ad5-59efc9b19c67",
+        "name": "Task 5",
+        "description": "Optimize database performance",
+        "start_date": "2023-09-21T00:43:51.719Z",
+        "end_date": "2023-09-21T07:42:29.350Z",
+        "status": "Deferred",
+        "created_at": "2023-09-20T21:54:20.166Z",
+        "updated_at": "2023-09-21T00:34:07.969Z",
+        "project_id": "3e9572f1-5a3d-402a-b603-00163e39c712"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "0c631021-09c9-4546-9d64-0ad9f64ce39b",
+        "created_at": "2023-09-20T22:29:18.774Z",
+        "updated_at": "2023-09-20T13:28:08.185Z",
+        "task_id": "a5e8cfe9-e9e1-42c8-8a51-52dbb1f7b76c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "159fe69e-29ec-4ba3-8105-803dfe6f72bc",
+        "created_at": "2023-09-21T07:02:03.716Z",
+        "updated_at": "2023-09-20T19:15:12.430Z",
+        "task_id": "a5e8cfe9-e9e1-42c8-8a51-52dbb1f7b76c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7230e12e-1010-4cb1-9554-a38df1ac153a",
+        "created_at": "2023-09-21T05:56:49.371Z",
+        "updated_at": "2023-09-20T18:14:08.044Z",
+        "task_id": "b8f53f3a-82d1-492b-9ad5-59efc9b19c67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cce1ac3-367e-4d39-8adf-4cfea3c4c262",
+        "created_at": "2023-09-20T10:10:09.508Z",
+        "updated_at": "2023-09-20T22:29:23.568Z",
+        "task_id": "a5e8cfe9-e9e1-42c8-8a51-52dbb1f7b76c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af8c02c5-be3c-4978-93c2-1f5466f0d3fb",
+        "created_at": "2023-09-20T23:37:16.820Z",
+        "updated_at": "2023-09-21T07:03:58.440Z",
+        "task_id": "4a4d3825-fd9c-4e4f-b06e-9288d4eb4595",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "71e55da9-7084-498f-960f-59ab0b1f9ed0",
+        "email": "Cordell_OConner@roq.tech",
+        "firstName": "Mohamed",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/473.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab65bc1c-039d-4284-a579-602cd473826a",
+        "email": "Rachelle.Swift29@roq.tech",
+        "firstName": "Winfield",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59744560",
+        "tenantId": null
+      },
+      {
+        "reference": "9b340114-b855-454f-80f3-d0db57a848db",
+        "email": "Elton_Rath@roq.tech",
+        "firstName": "Elwin",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72910306",
+        "tenantId": null
+      },
+      {
+        "reference": "1c24d11e-5062-4ca7-891a-eabf6bb3acbc",
+        "email": "Flossie_Koelpin3@roq.tech",
+        "firstName": "Norval",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20295610",
+        "tenantId": null
+      },
+      {
+        "reference": "11373890-fdf1-4c6f-b672-b26ae8ffc407",
+        "email": "Ruthie.Becker@roq.tech",
+        "firstName": "Darien",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/844.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "28a2e718-b59b-492b-97b4-0e504859c6ad",
+        "name": "Development Team",
+        "description": "Responsible for product development",
+        "created_at": "2023-09-20T15:34:03.321Z",
+        "updated_at": "2023-09-20T19:26:46.223Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c5bc67e9-8ab1-4e16-83d4-ba975584802f",
+        "name": "Marketing Team",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-20T11:03:30.918Z",
+        "updated_at": "2023-09-21T07:10:52.061Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "85256c0f-475c-468b-b5fb-ea7fa50b809e",
+        "name": "Sales Team",
+        "description": "Drives sales growth",
+        "created_at": "2023-09-21T08:10:19.541Z",
+        "updated_at": "2023-09-20T14:27:30.354Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e4405914-73bf-4d71-8082-693bee6b9095",
+        "name": "Operations Team",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-21T01:32:48.203Z",
+        "updated_at": "2023-09-20T16:32:28.361Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "519dcdd8-fbc0-451d-8fd7-236afcc86cd4",
+        "name": "Design Team",
+        "description": "Creates visually appealing designs",
+        "created_at": "2023-09-20T13:20:27.593Z",
+        "updated_at": "2023-09-21T07:09:21.502Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "user_team": [
+      {
+        "id": "a48a32ed-dd96-45ce-bcf9-37bdc1f4be98",
+        "created_at": "2023-09-21T07:25:39.804Z",
+        "updated_at": "2023-09-21T00:31:10.709Z",
+        "team_id": "c5bc67e9-8ab1-4e16-83d4-ba975584802f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c3ad64b-386e-48ae-9ed8-f4ee79eda03b",
+        "created_at": "2023-09-21T08:59:54.135Z",
+        "updated_at": "2023-09-20T17:54:03.875Z",
+        "team_id": "85256c0f-475c-468b-b5fb-ea7fa50b809e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a032725b-7987-4d73-a608-56906e8d9bdb",
+        "created_at": "2023-09-20T09:30:30.944Z",
+        "updated_at": "2023-09-20T13:25:57.676Z",
+        "team_id": "c5bc67e9-8ab1-4e16-83d4-ba975584802f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41626d3b-944d-4cf0-b63d-45dded3484e7",
+        "created_at": "2023-09-21T05:01:08.657Z",
+        "updated_at": "2023-09-20T21:02:06.217Z",
+        "team_id": "85256c0f-475c-468b-b5fb-ea7fa50b809e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1e604f8-3a67-4fa0-90bc-2ffa576aa395",
+        "created_at": "2023-09-21T00:11:30.360Z",
+        "updated_at": "2023-09-20T20:48:01.200Z",
+        "team_id": "85256c0f-475c-468b-b5fb-ea7fa50b809e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "a09a0df6-8189-40e2-b62a-b150f5c2d878",
+        "name": "Project A",
+        "description": "A groundbreaking initiative",
+        "start_date": "2023-09-21T05:36:38.627Z",
+        "end_date": "2023-09-20T12:16:53.555Z",
+        "status": "In progress",
+        "created_at": "2023-09-21T01:34:48.077Z",
+        "updated_at": "2023-09-20T17:47:22.362Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0b9d2d5e-041d-4525-a762-3a3ac899278e",
+        "name": "Project B",
+        "description": "An exciting new venture",
+        "start_date": "2023-09-20T21:07:08.723Z",
+        "end_date": "2023-09-21T02:17:24.926Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T08:04:09.363Z",
+        "updated_at": "2023-09-21T02:06:39.953Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "504fd48f-0d0d-4e65-ac00-bbf8144782fe",
+        "name": "Project C",
+        "description": "A strategic business expansion",
+        "start_date": "2023-09-21T04:44:06.703Z",
+        "end_date": "2023-09-20T21:50:12.025Z",
+        "status": "On hold",
+        "created_at": "2023-09-21T09:13:24.984Z",
+        "updated_at": "2023-09-21T00:33:46.168Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1e914270-d923-4935-8ff0-bb4e777ee80b",
+        "name": "Project D",
+        "description": "A client-focused solution",
+        "start_date": "2023-09-21T07:53:16.538Z",
+        "end_date": "2023-09-20T21:57:44.272Z",
+        "status": "Delayed",
+        "created_at": "2023-09-21T08:52:42.091Z",
+        "updated_at": "2023-09-20T17:22:52.436Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0d38533d-25a0-45e3-8e87-a5bcb03c0bd9",
+        "name": "Project E",
+        "description": "An innovative software development",
+        "start_date": "2023-09-21T01:27:59.239Z",
+        "end_date": "2023-09-20T18:02:49.001Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-21T01:54:34.833Z",
+        "updated_at": "2023-09-21T07:23:43.547Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "0efab72f-e97f-4b19-ac52-9e12a85acfe2",
+        "name": "Task 1",
+        "description": "Implement feature X",
+        "start_date": "2023-09-21T02:39:58.947Z",
+        "end_date": "2023-09-21T05:33:51.810Z",
+        "status": "Pending",
+        "created_at": "2023-09-21T08:00:53.615Z",
+        "updated_at": "2023-09-20T22:46:54.928Z",
+        "project_id": "0b9d2d5e-041d-4525-a762-3a3ac899278e"
+      },
+      {
+        "id": "6507403a-fccd-46bb-9770-4286862b456d",
+        "name": "Task 2",
+        "description": "Conduct market research",
+        "start_date": "2023-09-20T11:51:13.657Z",
+        "end_date": "2023-09-20T20:42:24.974Z",
+        "status": "In progress",
+        "created_at": "2023-09-21T02:54:38.651Z",
+        "updated_at": "2023-09-20T21:33:47.692Z",
+        "project_id": "1e914270-d923-4935-8ff0-bb4e777ee80b"
+      },
+      {
+        "id": "0e748614-025a-40ba-9452-98067f00abec",
+        "name": "Task 3",
+        "description": "Prepare sales presentation",
+        "start_date": "2023-09-21T04:20:39.412Z",
+        "end_date": "2023-09-20T22:47:15.306Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T03:54:10.125Z",
+        "updated_at": "2023-09-20T13:17:26.480Z",
+        "project_id": "504fd48f-0d0d-4e65-ac00-bbf8144782fe"
+      },
+      {
+        "id": "1da650ec-cbae-47a0-a1a0-f63bcfee2c8d",
+        "name": "Task 4",
+        "description": "Optimize operational processes",
+        "start_date": "2023-09-21T05:18:13.010Z",
+        "end_date": "2023-09-21T01:24:07.390Z",
+        "status": "Blocked",
+        "created_at": "2023-09-21T05:10:30.347Z",
+        "updated_at": "2023-09-20T10:44:54.626Z",
+        "project_id": "504fd48f-0d0d-4e65-ac00-bbf8144782fe"
+      },
+      {
+        "id": "1f6a10d5-88d1-4b4f-905f-64354edff8f5",
+        "name": "Task 5",
+        "description": "Design user interface",
+        "start_date": "2023-09-21T00:40:37.751Z",
+        "end_date": "2023-09-20T17:26:47.866Z",
+        "status": "Assigned",
+        "created_at": "2023-09-21T01:53:15.571Z",
+        "updated_at": "2023-09-20T19:24:33.962Z",
+        "project_id": "a09a0df6-8189-40e2-b62a-b150f5c2d878"
+      }
+    ],
+    "user_task": [
+      {
+        "id": "5c1860c2-a722-425b-bf9a-3ad42c7720fb",
+        "created_at": "2023-09-20T19:43:52.073Z",
+        "updated_at": "2023-09-20T11:54:09.542Z",
+        "task_id": "6507403a-fccd-46bb-9770-4286862b456d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e4c71ad-6a76-4ee1-aae5-4e50c2ff21ae",
+        "created_at": "2023-09-20T18:02:34.668Z",
+        "updated_at": "2023-09-21T02:21:45.072Z",
+        "task_id": "6507403a-fccd-46bb-9770-4286862b456d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a7505db-1b1e-4fce-a7b7-888cff8536a7",
+        "created_at": "2023-09-20T20:01:07.450Z",
+        "updated_at": "2023-09-21T01:25:45.654Z",
+        "task_id": "0e748614-025a-40ba-9452-98067f00abec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d028687-a6be-46ec-92e6-2b85330fe04f",
+        "created_at": "2023-09-20T17:19:47.922Z",
+        "updated_at": "2023-09-21T08:34:35.308Z",
+        "task_id": "0e748614-025a-40ba-9452-98067f00abec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "427dc2d8-2ad3-4a2b-8d67-dfa494ecb412",
+        "created_at": "2023-09-20T21:30:14.522Z",
+        "updated_at": "2023-09-20T23:45:47.133Z",
+        "task_id": "1f6a10d5-88d1-4b4f-905f-64354edff8f5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a6bdf34b-ec0b-4c76-bee4-f198fa1df6ba",
+        "email": "Matteo90@roq.tech",
+        "firstName": "Efren",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/987.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "501b4837-f9a5-4c7c-95f9-607dac177333",
+        "email": "Jay44@roq.tech",
+        "firstName": "Gus",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33379263",
+        "tenantId": null
+      },
+      {
+        "reference": "579649bd-3035-453f-b172-103b21a79a00",
+        "email": "Vicky_McCullough@roq.tech",
+        "firstName": "Susanna",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28809319",
+        "tenantId": null
+      },
+      {
+        "reference": "12feb96b-cdb5-403f-ba9c-8941119ece66",
+        "email": "Leonora.Armstrong@roq.tech",
+        "firstName": "Elnora",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79943808",
+        "tenantId": null
+      },
+      {
+        "reference": "389d1150-a5f2-42b3-b109-d6b6399f26a0",
+        "email": "Macey.Kassulke9@roq.tech",
+        "firstName": "Jacinto",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27261896",
+        "tenantId": null
+      }
+    ]
+  }
+]
